@@ -1,0 +1,65 @@
+* {
+  font-family: sans-serif;
+}
+select{
+  border-radius: 4px;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+input {
+  border-radius: 4px;
+  width: 80px;
+  font-size: 25px;
+}
+
+#eventId {
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+#eventTitle {
+  font-size: 14px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+textarea {
+  font-size: 14px;
+  border-radius: 6px;
+  height: 200px;
+  width: 300px;
+}
+button {
+  border: 1px solid black;
+  font-size: 15px;
+  margin-top: 10px;
+  background: blue;
+  border-radius: 5px;
+  color: white;
+}
+
+#calendar {
+  width: 728px;
+  margin: 20px auto;
+}
+
+#calendar .body, #calendar .header {
+  width: inherit;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#calendar .day {
+  width: 100px;
+  min-height: 50px;
+  margin: 1px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
